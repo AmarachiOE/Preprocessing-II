@@ -248,7 +248,7 @@ img {
 }
 @media (max-width: 500px) {
   .home .content-section {
-    margin-top: 20px;
+    margin: 20px auto 0;
   }
 }
 .home .content-section .text-content {
@@ -357,4 +357,54 @@ img {
     color: #17A2B8;
     cursor: pointer;
   }
+}
+.home .form-section {
+  padding-top: 30px;
+  border-top: 2px dashed #C0C0C0;
+  margin-bottom: 3%;
+}
+@media (max-width: 500px) {
+  .home .form-section {
+    margin: 2% 5%;
+  }
+}
+.home .form {
+  font-size: 1.5rem;
+}
+.home .form .short-line {
+  width: 50%;
+  padding: 12px 0;
+  margin: 1% 0;
+  border: 1px solid #17A2B8;
+  border-radius: 5px;
+}
+.home .form .pick-package {
+  width: 5%;
+  margin: 1% 0;
+  padding-bottom: 2%;
+}
+.home .form .last-package {
+  margin-bottom: 4%;
+}
+.home .form .long-line {
+  width: 80%;
+  height: 10rem;
+  padding: 12px 0;
+  margin: 1% 0;
+  border: 1px solid #17A2B8;
+  border-radius: 5px;
+}
+.home .form input[type=submit] {
+  width: 20%;
+  background-color: #17A2B8;
+  color: white;
+  padding: 10px 2px;
+  font-size: 1.6rem;
+  border: 1px solid #17A2B8;
+  border-radius: 15px;
+}
+.home .form input[type=submit]:hover {
+  background-color: white;
+  color: #17A2B8;
+  cursor: pointer;
 }
