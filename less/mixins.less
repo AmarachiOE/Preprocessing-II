@@ -1,1 +1,34 @@
 // Mixins in here
+
+.custom-btn (@width: 100%) {
+    width: @width;
+    background-color: @eastern-blue;
+    color: white;
+    padding: 10px 2px;
+    font-size: 1.6rem;
+    border: 1px solid @eastern-blue;
+    border-radius: 15px;
+
+    &:hover {
+        background-color: white;
+        color: @eastern-blue;
+        cursor: pointer;
+    }
+}
+
+// From codepen challenge
+// .my-button (@width: 250px, @bg-color: purple, @font-color: pink) {
+//     width: @width;
+//     background-color: @bg-color;
+//     color: @font-color;
+//     padding: 10px 2px;
+//     font-size: 2rem;
+//     border: 1px dashed gold;
+//     margin: 20px 40px 30px;
+    
+//     &:hover {
+//       background-color: @font-color;
+//       color: @bg-color;
+//     }
+    
+//   }

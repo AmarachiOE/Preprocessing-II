@@ -252,3 +252,17 @@ img {
   width: 30%;
   margin-bottom: 30px;
 }
+.home .content-pick .destination .btn {
+  width: 85%;
+  background-color: #17A2B8;
+  color: white;
+  padding: 10px 2px;
+  font-size: 1.6rem;
+  border: 1px solid #17A2B8;
+  border-radius: 15px;
+}
+.home .content-pick .destination .btn:hover {
+  background-color: white;
+  color: #17A2B8;
+  cursor: pointer;
+}
