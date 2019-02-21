@@ -169,18 +169,24 @@ img {
   margin: 0 auto;
 }
 .navigation-section {
+  width: 100%;
   border-bottom: 2px dashed #C0C0C0;
+}
+.navigation-sub-section {
+  width: 100%;
+  max-width: 800px;
   display: flex;
   justify-content: space-between;
+  margin: 0 auto;
   padding: 2% 0;
 }
-.navigation-section .navigation-links {
+.navigation-sub-section .navigation-links {
   width: 45%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
-.navigation-section .navigation-links a {
+.navigation-sub-section .navigation-links a {
   text-decoration: none;
   color: black;
   font-size: 1.2rem;

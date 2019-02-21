@@ -1,9 +1,15 @@
 // Navigation Styles here
 
 .navigation-section {
-    border-bottom: 2px dashed @navigation-border;
+    width:100%;
+    border-bottom: 2px dashed @navigation-border; //to take up the full webpage length
+}
+.navigation-sub-section {
+    width: 100%;
+    max-width: 800px; //match the .container constrain in global.less
     display: flex;
     justify-content: space-between;
+    margin: 0 auto;
     padding: 2% 0;
 
     .navigation-links {
@@ -19,4 +25,5 @@
             font-size: 1.2rem;
         } //a
     } //.navigation-links
-}//.navigation-section
+}//.navigation-sub-section
+
